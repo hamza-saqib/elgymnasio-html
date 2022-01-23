@@ -1,0 +1,19 @@
+h1, .rx_h1,
+h2, .rx_h2,
+h3, .rx_h3,
+h4, .rx_h4,
+h5, .rx_h5,
+h6, .rx_h6 {
+	strong {
+		font-weight: 600;
+	}
+}
+
+h4 {
+	padding: 1.7rem 0 0.7rem;
+	font-size: 1.4rem;
+}
+h3 {
+	padding:2.5rem 0 1.5rem;
+	font-size: 1.7rem;
+}

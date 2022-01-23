@@ -1,0 +1,18 @@
+
+//ARROW RIGHT
+
+	.rx_button_chevron_right {
+		&::after {
+		    font-family: 'FontAwesome';
+		    content: '\f178';
+		    padding-left: 35px;
+		    position: relative;
+		    font-size: 150%;
+		    line-height: 36px;
+		    position: relative;
+		    top: 2px;
+		}		
+	}
+
+//
+

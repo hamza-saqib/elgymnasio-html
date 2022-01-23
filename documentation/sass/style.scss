@@ -1,0 +1,40 @@
+@import 'bootstrap/variables';
+@import 'bootstrap/custom';
+@import 'bootstrap/mixins';
+@import 'custom/typography';
+
+
+.rx_main_nav {
+	height: 60px;
+	ul {
+		list-style: none;
+		text-align: right;
+		li {
+			display: inline-block;
+			padding-left: 10px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+
+.rx_padding_bottom_2 {
+	padding-bottom: 2rem;
+}
+
+
+.rx_blue_divider {
+	width: 100%;
+	height: 1px;
+	background-color: #212750;
+}
+.rx_flex {
+	display: flex;
+}
+
+
+
+
+@import 'custom/maxim';
+@import 'custom/dima';
+@import 'custom/doc';

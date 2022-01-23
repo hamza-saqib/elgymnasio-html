@@ -1,0 +1,46 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+
+// Fonts
+$font-family-base: "Roboto", "Helvetica Neue", Arial, sans-serif;
+$font-weight-base: 300;
+$font-size-base: .875rem;
+$line-height-base: 2;
+
+$font-size-h1: 2.5rem;
+$font-size-h2: 2.25rem;
+$font-size-h3: 2rem;
+$font-size-h4: 1.5rem;
+$font-size-h5: 1.125rem;
+$font-size-h6: .875rem;
+$headings-font-weight: 400;
+
+
+// Body
+$body-color: #000;
+
+
+// Grid breakpoints
+$grid-breakpoints: (
+	xs: 0,
+	sm: 600px,
+	md: 900px,
+	lg: 1200px,
+	xl: 1600px
+);
+
+
+// Grid containers
+$container-max-widths: (
+	sm: 640px,
+	md: 940px,
+	lg: 1120px,
+	xl: 1280px
+);
+
+
+// Components
+$btn-border-radius: 3px;
